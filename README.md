@@ -3,7 +3,7 @@ Frogger arcade game - udacity frontend nanodegree project by KC Chang
 
 [Here](https://github.com/udacity/frontend-nanodegree-arcade-game) is udacity original source code.
 
-## Getting started
+## Game Functions
 - The goal of the player is to reach the water, without colliding into any one of the enemies. 
 - The player can move left, right, up and down. 
 - The enemies move in varying speeds on the paved block portion of the scene. 
@@ -29,6 +29,10 @@ http://127.0.0.1/frogger
 
 ## Resource
 Essentials:
-- Object Oriented JavaScript
 - HTML5 Canvas
+- Object Oriented JavaScript
 - Prototype 
+
+## Validate source code
+- [JShint](http://jshint.com/)
+- [jsbeautifier](http://jsbeautifier.org/)
