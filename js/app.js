@@ -75,7 +75,7 @@ Player.prototype.update = function() {
     this.x = 101 * this.col;
     this.y = 83 * this.row;
 
-    if (this.y < 0) {
+    if (this.y < 83) {
         this.onload();
         this.score += 1;
         console.log(this.score);
@@ -86,7 +86,7 @@ Player.prototype.update = function() {
 // Check and display score in top of canvas
 Player.prototype.checkScore = function() {
     ctx.fillStyle = "black";
-    ctx.clearRect(ctx.canvas.width / 2 - 50.5, 0, 101, 40);
+    ctx.clearRect(ctx.canvas.width / 2 - 50.5, 0, 101, 50);
     ctx.font = "36pt Impact";
     ctx.textAlign = "center";
     ctx.fillStyle = "black";
