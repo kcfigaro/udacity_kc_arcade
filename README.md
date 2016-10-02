@@ -13,7 +13,7 @@ Frogger arcade game - udacity frontend nanodegree project by KC Chang
 ## Installation
 **1**. Clone git source code and link to webapp directory.(Linux OS)
 ```sh
-$ git clone http://
+$ git clone https://github.com/kcfigaro/udacity_kc_arcade.git
 $ sudo ln -s udacity_kc_arcade /var/www/html/frogger 
 ```
 
